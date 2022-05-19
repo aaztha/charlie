@@ -14,6 +14,7 @@ engine.setProperty('voice', voices[1].id)
 
 
 def speak(audio):
+    print("Astha is speeking...")
     engine.say(audio) 
     engine.runAndWait()
 
